@@ -6,8 +6,9 @@ def main():
     print("=== main/master branch output ===")
     print(f"Scores: {scores}")
     print(f"Sum: {total}")
-
-  git  print(f"Average: {average}")
+    print(f"Average: {average}")
+    print(f"max:"{max(scores)})
+    print(f"min:"{min(scores)})
 
 
 if __name__ == "__main__":
